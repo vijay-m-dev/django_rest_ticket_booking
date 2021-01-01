@@ -1,0 +1,42 @@
+
+
+
+For user register and getting tokens:
+{
+    "username":"admin1",
+    "password":"admin1admin1"
+}
+
+For refresh tokens:
+{
+	"refresh":"<refersh token>"
+}
+
+
+
+For bus create and bus update:
+{
+"name":"bus1",
+"from_location":"chennai",
+"to_location":"salem",
+"available_seats":30,
+"total_seats":30,
+"price":300
+}
+
+
+For Booking Create:
+{
+    "passenger": [{"name":"vijay","email":"email1@gmail.com","phone":"12321323"},{"name":"sam","email":"email2@gmail.com","phone":"12321323"}],
+    "no_of_tickets": 2,
+    "total_cost": null,
+    "user": 1,
+    "bus": 1
+}
+
+For passenger update:
+{
+	"name":"passenger_name",
+	"email":"passenger_mail",
+	"phone":"9845345432"
+}
